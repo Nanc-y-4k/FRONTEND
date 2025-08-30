@@ -1,0 +1,719 @@
+## WEB?-
+
+Information system collection of web pages and websites which you access using internet.
+
+### WEBSITE AND WEB-APPLICATION-
+
+static staff                        dynamic staff
+
+ex-gov. website                  ex-facebook and instagram;
+
+WEBPAGES-
+
+single  page of  information.
+
+or collection of web pages makes a website.
+
+### Internet-
+
+global network of interconnected computer which communicates using TCP/IP protocol.
+
+### TCP/IP protocol-
+
+internet  kai  sath work ,then you need to follow some rules/techniques by standard organisation.
+
+ex-http,https,etc;
+
+IP-internet protocol
+
+TCP-Transmission Control Protocol
+
+-: ISP-internet service provider    ex-airtel,jio;
+
+### Internet by the numbers
+4.66 billion users > 50% all world population has access 1.5 websites 10x increases from 1992 to 2013.
+
+### Client:
+
+In the context of the internet, a client is typically a computer, smartphone, or other device that accesses online resources like websites, applications, or data.
+
+### server:
+
+A server is a computer or system that provides resources, data, services, or programs to other computers, called clients, over a network.
+
+### ISP :
+
+ISPs act as the gatekeepers to the internet, connecting users to the global network through various technologies like DSL, cable, or fiber optics.
+
+### DNS:
+
+When you type a website address into your browser, the DNS system translates that address into an IP address (a numerical address like 192.0.2.1), which is how your computer locates the correct server.
+
+### Datacenter:
+Datacenters are massive facilities that house servers, storage, and networking equipment that power the internet. They are the backbone of the online world.{huge- huge  data store}
+
+### TYPES OF WEBSITE-
+
+- Static
+- dynamic
+- Responsive
+
+### BROWSER  ENGINE TYPE-
+
+- [ ]  Layout Engine (HTML and CSS)
+- [ ]  JS Engine (JAVA SCRIPT)
+- [ ]  SEO
+
+## #HTML-
+
+HTML (Hyper Text Markup Language) is the standard markup language used to create the structure of web pages. It uses elements represented by tags to define the content and layout of a webpage, allowing browsers to interpret and display the content properly to users.
+
+- Two types of html-:
+- Inline
+- Block
+
+HTML SYNTAX —
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+          <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document Page </title>
+</head>
+<body>
+
+<h1>hello web-d </h1>
+<!-- Page content goes here -->
+</body>
+</html>
+
+### Difference between Inline and Block Elements
+
+### Block Elements:
+
+- Start on a new line and take up the full width available
+- Create a "block" on the page
+- Have top and bottom margins
+- Examples: `&lt;div&gt;`, `&lt;h1&gt;` to `&lt;h6&gt;`, `&lt;p&gt;`, `&lt;ul&gt;`, `&lt;li&gt;`
+
+### Inline Elements:
+
+- Do not start on a new line
+- Only take up as much width as necessary
+- Do not force line breaks
+- Examples: `&lt;span&gt;`, `&lt;a&gt;`, `&lt;img&gt;`, `&lt;strong&gt;`, `&lt;em&gt;`
+
+### Block Elements (Most Commonly Used First)-
+
+<div>: A generic container for flow content.
+<p>: Paragraph.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Headings.
+<ul>: Unordered list.
+<ol>: Ordered list.
+<li>: List item.
+<form>: A section containing form controls.
+<table>: Table.
+<section>: A standalone section of a document.
+<header>: A container for introductory content or a set of navigational links.
+<footer>: Footer of a section or page.
+<nav>: A section of a page that contains navigation links.
+<article>: A self-contained composition in a document.
+<aside>: A section of a page that contains information indirectly related to the main content.
+<main>: The main content of a document.
+<fieldset>: A set of form controls grouped under a common name.
+<blockquote>: A block of text that is a quotation from another source.
+<pre>: Preformatted text.
+<canvas>: A container used to draw graphics via JavaScript.
+<dl>: Description list.
+<dt>: Term in a description list.
+<dd>: Description in a description list.
+<figure>: Any content that is referenced from the main content.
+<figcaption>: A caption for a <figure> element.
+<address>: Contact information for the author or owner of the document.
+<hr>: A thematic break or a horizontal rule.
+<tfoot>: Footer of a table.
+
+### Inline Elements (Most Commonly Used First)-
+
+<a>: Anchor or hyperlink.
+<img>: Image.
+<span>: Generic inline container.
+<input>: Input field.
+<label>: Label for a form element.
+<strong>: Strong emphasis.
+<em>: Emphasized text.
+<br>: Line break.
+<code>: Code snippet.
+<b>: Bold text.
+<i>: Italic text.
+<u>: Underlined text.
+<small>: Smaller text.
+<sub>: Subscript.
+<sup>: Superscript.
+<mark>: Marked or highlighted text.
+<q>: Short inline quotation.
+<cite>: Citation.
+<kbd>: Keyboard input.
+<samp>: Sample output.
+<var>: Variable in a mathematical expression or programming context.
+<time>: Time.
+<abbr>: Abbreviation.
+<data>: Machine-readable translation of content.
+<acronym>: Acronym (Not supported in HTML5).
+
+### HTML ENTITIES-
+
+🔹 What are HTML Entities?
+
+In HTML, some characters are reserved (like <, >, &, ", ').
+
+If you write them directly, the browser may confuse them with HTML code.
+
+So, HTML Entities are used to display such special characters.
+
+👉 They start with & and end with ;.
+
+---
+
+🔹 Common HTML Entities
+
+Character	Entity Name	Entity Code
+
+<	<	Less than
+
+> >	Greater than
+&	&	Ampersand
+"	"	Double quote
+'	'	Apostrophe
+©	©	Copyright
+®	®	Registered
+₹	₹	Indian Rupee
+€	€	Euro
+™	™	Trademark
+😀	😀	Emoji (Unicode)
+> 
+
+---
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Entities</title>
+</head>
+<body>
+<h1>HTML Entities</h1>
+<h3>hi, today i'll show my younger brother how to write ending tag of h3 i.e &lt;/h3&gt; hope u get this </h3>
+
+<p>&copy;</p>
+<p>&divide;</p>
+<p>&hearts;</p>
+<p>&equals;</p>
+<p>&amp;</p>
+
+<br>
+<code>
+    int function(int n){ <br>
+    &nbsp;&nbsp;return n*n; <br>         /* &nbsp;(no break space)  and subscript use in                                             chemical formula <sub> and superscript use in
+    }                                         power formula <sup>  */     
+</code>
+</body>
+</html>
+```
+
+### lists-
+
+two types of lists-
+
+- [ ]  unordered list(<ol>) -bulleted list
+- [ ]  ordered list  (<ol>)- numbered lis
+- [ ]  decription list(<dl>)-Term + Description
+
+ 
+
+---
+
+🔹  Attributes of <ol> (Ordered List)
+
+Attribute	Example	Description
+
+type	<ol type="A">	Changes numbering style → 1, A, a, I, i
+start	<ol start="5">	Sets the starting number of list
+reversed	<ol reversed>	Displays list in reverse order
+
+✅ Example:
+
+<ol type="I" start="3" reversed>
+<li>Apple</li>
+<li>Banana</li>
+<li>Mango</li>
+</ol>
+
+👉 Output:
+III. Apple
+II. Banana
+I. Mango
+
+---
+
+🔹  Attributes of <ul> (Unordered List)
+
+Attribute	Example	Description
+
+type (deprecated in HTML5)	<ul type="circle">	Sets bullet style → disc, circle, square
+
+✅ Example:
+
+<ul type="square">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+
+---
+
+🔹 Attributes of <dl> (Description List)
+
+<dl> (Description List) has no specific attributes, but works with:
+
+<dt> → Defines the term
+
+<dd> → Defines the description
+
+✅ Example:
+
+<dl>
+<dt>HTML</dt>
+<dd>- HyperText Markup Language</dd>
+<dt>CSS</dt>
+<dd>- Cascading Style Sheets</dd>
+</dl>
+
+---
+
+🔹 Extra Styling with CSS
+
+Instead of attributes (since some are deprecated), you can use CSS:
+
+<ul style="list-style-type: square;">
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+
+### #method attribute- get or post-
+
+default value is get
+
+we use get to fetch the data
+
+we use post to save the data to the server to make the changes
+
+when we use get method then data is stored in (query string)
+
+when we use post method then data is stored in (form data)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Forms</h1>
+    <form action="#" method="post">
+        <label for="naam">Name</label>
+        <input type="text" name="Name" id="naam"><br>
+        <label for="secret">Password</label>
+        <input type="password" name="password" id="secret"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br>
+        <button>Login</button>
+    </form>
+</body>
+</html>
+
+```
+
+- **FORM TAG**
+    
+    ```html
+    <h1>FORMS</h1>
+    <form action=""><!--action attribute tells the browser where to send the form data after the users submit it-->
+    <label for="naam">Name:</label>
+    <input type="name" id="naam">
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <button>Login</button>
+    </form>
+    
+    There is another attribute i.e. method and form k case me method are of two types i.e get and post(By default method attribute has get value)
+    <form action="" method="GET"><!--method attribute tells how data will be sent to the server-->
+    
+    ```
+    
+
+Query String- part of URL which comes after? (it carries data from browser to server when we use get method). Therefore, get method is not secure as your password and personal info can be seen by anyone in address bar. But if we use post method then the personal info will not come in query.
+
+GET→data is stored in query String →fetch data
+
+POST→data is stored in form data →send data/server change
+
+- **TABLES**
+    
+    th-table heading, tr-table row, td-table data
+    
+    th- data is bolded, td-normal data
+    
+    th-data is centre-aligned, td-data will start from beginning
+    
+    ```html
+    <h1>Tables</h1>
+    <table border="3">
+    <thead>
+        <tr>
+            <th>Days</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th></tr></thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>maths</td>
+                <td>eng</td>
+                <td>comp</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>maths</td>
+                <td>eng</td>
+                <td>comp</td>
+            </tr>
+             <tr>
+                <td>3</td>
+                <td>maths</td>
+                <td>eng</td>
+                <td>comp</td>
+            </tr>
+            </tbody>
+            <tfoot></tfoot>
+    
+    ```
+    
+    | **Days** | **Mon** | **Tue** | **Wed** |
+    | --- | --- | --- | --- |
+    | 1 | maths | eng | comp |
+    | 2 | maths | eng | comp |
+    | 3 | maths | eng | comp |
+
+Other than border attribute there are other attributes like cell spacing , align and  cell padding but these attributes are deprecated so avoid using them
+
+rowspan attribute-merges row , colspan attribute - merges column
+
+Media elements- images, audio, video
+
+```html
+<img src="" alt="">
+<!--src contains path either relative or absolute whereas alt is used to describe ur img in words in case if your path is wrong or img fails to load-->
+<img width="400" src="./media.jpg" alt="dog img"><!--u can give only width as height will automatically adjust so no need to give both-->
+<audio controls src="/audio.org"></audio>
+<audio controls autoplay src="/audio.org"></audio> Audio will start automatically
+<audio controls autoplay loop src="/audio.org"></audio>After audio is completed it will play again from starting
+<audio controls muted autoplay loop src="/audio.org"></audio>audio will be initially muted
+<!--autoplay, controls, loop, muted all are boolean attributes-->
+<video controls autoplay loop src="video.mp4"></video>
+
+```
+
+---
+
+---
+
+- If you have video file use<video>→plays your own hosted video files
+- If you want to embed video from youtube / other sites use <iframe>→embeds video from external websites
+
+```html
+<iframe src="<https://example.com>" width="600" height="400"></iframe>
+
+```
+
+Frameborder attribute-shows border
+
+```html
+<iframe src="<https://www.wikipedia.org>"
+        width="400"
+        height="200"
+        frameborder="1"><!--shows visible border-->
+</iframe>
+<br><br>
+<iframe src="<https://www.wikipedia.org>"
+        width="400"
+        height="200"
+        frameborder="0"><!--no border will be visible-->
+</iframe>
+
+```
+
+But this attribute is deprecated so we use css to make border like the way given below
+
+```html
+<iframe src="<https://www.wikipedia.org>"
+        width="400"
+        height="200"
+        style="border: 3px solid red;">
+</iframe>
+
+```
+
+### HTML Semantics → makes the structure meaningful, makes SEO better, easier readability
+
+E.g. - <header>,<nav>,<main>,<footer>,<section>,<aside>,<article>,<figcaption>
+
+A web crawler is a search engine that visits your website to analyze content, structure and links. The data it collects is added to search engine’s index. Therefore on basis of your website SEO it decides how and when your pages appear in search result.
+
+---
+
+## #Media Elements
+
+<img  width = “100” height = “100” src = “image.png” alt=”dog pic”>
+
+<audio controls muted loop autoplay  src = “audio.mp3”></audio>
+
+<video controls autoplay loop muted src = “video.mp4”></video>
+
+article, section tags, navbar, aside tag, figure tag, semantics.
+
+## **HTML Tags and Their Attributes—**
+
+HTML tags are the building blocks of web pages, used to structure and format content. Attributes provide additional information about tags, modifying their behavior or appearance. Below is a concise overview:
+
+---
+
+### **1. Basic Tags and Attributes**
+
+- **`<html>`**: Defines the root of an HTML document.
+    - *Attributes*: `lang` (e.g., `lang="en"` specifies the language).
+- **`<head>`**: Contains metadata about the document.
+    - *Attributes*: None commonly used.
+- **`<body>`**: Represents the main content of the document.
+    - *Attributes*: `bgcolor`, `text`, `style`.
+
+---
+
+### **2. Text Formatting Tags**
+
+- **`<h1>` to `<h6>`**: Headings.
+    - *Attributes*: `align` (e.g., `align="center"`).
+- **`<p>`**: Paragraph.
+    - *Attributes*: `align`.
+- **`<b>`**, **`<i>`**, **`<u>`**: Bold, italic, underline.
+    - *Attributes*: None.
+
+---
+
+### **3. Link and Image Tags**
+
+- **`<a>`**: Hyperlink.
+    - *Attributes*: `href` (URL), `target` (e.g., `_blank` to open in a new tab), `title`.
+- **`<img>`**: Embeds an image.
+    - *Attributes*: `src` (image path), `alt` (alternative text), `width`, `height`.
+
+---
+
+### **4. Table Tags**
+
+- **`<table>`**: Creates a table.
+    - *Attributes*: `border`, `cellpadding`, `cellspacing`.
+- **`<tr>`**, **`<td>`**, **`<th>`**: Table row, data cell, header cell.
+    - *Attributes*: `align`, `colspan`, `rowspan`.
+
+---
+
+### **5. Form Tags**
+
+- **`<form>`**: Defines a form.
+    - *Attributes*: `action` (URL to send data), `method` (GET/POST).
+- **`<input>`**: Input field.
+    - *Attributes*: `type` (e.g., text, password, checkbox), `name`, `value`, `placeholder`.
+- **`<button>`**: Button.
+    - *Attributes*: `type` (e.g., submit, reset), `onclick`.
+
+---
+
+### **6. Media Tags**
+
+- **`<audio>`**: Embeds audio.
+    - *Attributes*: `src`, `controls`, `autoplay`.
+- **`<video>`**: Embeds video.
+    - *Attributes*: `src`, `controls`, `autoplay`, `width`, `height`.
+
+---
+
+### **7. Semantic Tags**
+
+- **`<header>`**, **`<footer>`**, **`<article>`**, **`<section>`**: Define semantic sections of a page.
+    - *Attributes*: `class`, `id`, `style`.
+
+---
+
+Attributes are written inside the opening tag, e.g., `<tag attribute="value">`. They enhance the functionality and appearance of HTML elements.
+
+**HTML Tags and Their Attribute Syntax**
+
+HTML tags are the building blocks of a webpage. They define the structure and content, while attributes provide additional information about the elements. Here's a concise explanation with examples:
+
+---
+
+### **Basic Syntax**
+
+```html
+<tagname attribute="value">Content</tagname>
+
+```
+
+- **`<tagname>`**: The name of the HTML element.
+- **`attribute`**: Provides extra information about the element.
+- **`value`**: The value assigned to the attribute.
+
+---
+
+### **Examples of Common HTML Tags and Attributes**
+
+1. **Heading Tag (`<h1>` to `<h6>`)**
+    
+    ```html
+    <h1 style="color:blue;">Welcome to HTML</h1>
+    
+    ```
+    
+    - **Tag**: `<h1>` (defines a heading).
+    - **Attribute**: `style` (adds inline CSS).
+2. **Paragraph Tag (`<p>`)**
+    
+    ```html
+    <p class="intro">This is a paragraph.</p>
+    
+    ```
+    
+    - **Tag**: `<p>` (defines a paragraph).
+    - **Attribute**: `class` (used for CSS styling).
+3. **Anchor Tag (`<a>`)**
+    
+    ```html
+    <a href="https://example.com" target="_blank">Visit Example</a>
+    
+    ```
+    
+    - **Tag**: `<a>` (defines a hyperlink).
+    - **Attributes**:
+        - `href`: Specifies the URL.
+        - `target`: Specifies where to open the link.
+4. **Image Tag (`<img>`)**
+    
+    ```html
+    <img src="image.jpg" alt="Sample Image" width="300" height="200">
+    
+    ```
+    
+    - **Tag**: `<img>` (embeds an image).
+    - **Attributes**:
+        - `src`: Path to the image.
+        - `alt`: Alternative text for accessibility.
+        - `width` and `height`: Dimensions of the image.
+5. **Table Tag (`<table>`)**
+    
+    ```html
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+        </tr>
+    </table>
+    
+    ```
+    
+    - **Tag**: `<table>` (creates a table).
+    - **Attribute**: `border` (adds a border to the table).
+6. **Input Tag (`<input>`)**
+    
+    ```html
+    <input type="text" placeholder="Enter your name" required>
+    
+    ```
+    
+    - **Tag**: `<input>` (creates an input field).
+    - **Attributes**:
+        - `type`: Specifies the input type (e.g., text, password).
+        - `placeholder`: Displays a hint inside the input field.
+        - `required`: Makes the field mandatory.
+
+---
+
+### **Self-Closing Tags**
+
+Some tags, like `<img>` and `<input>`, are self-closing and do not require a closing tag.
+
+Self-closing tags, also known as **void elements are HTML elements that do not require a separate closing tag.**
+
+```html
+<img src="logo.png" alt="Logo">
+
+```
+
+---
+
+1. `<br>`: Inserts a line break.
+2. `<img>`: Embeds an image.
+3. `<input>`: Creates an input field.
+4. `<meta>`: Provides metadata about the HTML document.
+5. `<link>`: Links external resources like stylesheets.
+6. `<hr>`: Inserts a horizontal rule (line).
+
+### **Paired Tags in HTML**
+
+In HTML, paired tags consist of an **opening tag** and a **closing tag**. The opening tag starts the element, and the closing tag ends it. The closing tag is denoted by a forward slash (`/`) before the tag name. These tags are used to define content that lies between them.
+
+### **Examples of Paired Tags**
+
+1. **Paragraph Tag**
+    
+    ```html
+    <p>This is a paragraph.</p>
+    
+    ```
+    
+2. **Heading Tag**
+    
+    ```html
+    <h1>This is a heading.</h1>
+    
+    ```
+    
+3. **Div Tag**
+    
+    ```html
+    <div>This is a division.</div>
+    
+    ```
+    
+4. **Anchor Tag**
+    
+    ```html
+    <a href="https://example.com">Click here</a>
+    
+    ```
+    
+
+[🌐  HTML short Notes (1)](https://www.notion.so/HTML-short-Notes-1-258d29bbdad28082a162f05bd7b89b4e?pvs=21)
