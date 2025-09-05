@@ -1,0 +1,81 @@
+<div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+</div>
+
+<style>
+    .container {
+  display: flex;
+  border: 2px solid #333;
+  margin: 20px;
+  height: 200px; /* useful for vertical alignment demos */
+}
+
+.item {
+  background: lightblue;
+  border: 1px solid #333;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: row; /* try row-reverse, column, column-reverse */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 120px; /* force wrapping */
+}
+<!-- 
+    
+.container {
+  display: flex;
+  flex-flow: row wrap; /* direction + wrap together */
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  align-items: baseline;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+    align-content: space-between;
+}
+    
+    
+    
+    
+
+-->
+.item {
+  width: 120px;
+}
+
+.container {
+  display: flex;
+  gap: 20px; /* horizontal + vertical gap */
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
