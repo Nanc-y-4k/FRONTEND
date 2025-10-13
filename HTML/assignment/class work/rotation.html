@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .ball{
+            position:absolute;
+            width:100px;
+            height:100px;
+            background:blue;
+            border-radius:50%;
+            top: 0;
+            left: 0;
+            animation: movingsquare 2s linear infinite;
+        } 
+@keyframes movingsquare {
+        0%   { top: 0; left: 0; }                                
+          25%  { top: 0;left: calc(100vw - 100px); }            
+          50%  { top: calc(100vh - 100px); left: calc(100vw - 100px);
+          } 
+        75%  { top: calc(100vh - 100px); left: 0; }        
+        100% { top: 0; left: 0; } 
+}
+    </style>
+</head>
+<body>
+    <div class="ball"> </div>
+</body>
+</html>

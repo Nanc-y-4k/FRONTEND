@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"poppins", sans-serif;
+  
+}
+
+body{
+  background-color:lightblue;
+  color:#fff;
+}
+header{
+  width:100%;
+  position:fixed;
+  top:0;
+  background:#161b22;
+  padding:15px 50px;
+  z-index:100;
+}
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+  
+}
+.nav-link{
+  list-style:none;
+  display:flex;
+  gap:25px;
+}
+.logo{
+  font-size:22px;
+  font-weight:bold;
+  color:#58a6ff;
+}
+.nav-link  li a {
+    color:#fff;
+     font-wieght:500;
+  text-decoration:none;
+}
+
+.nav-link  li a:hover,
+.nav-link  li a.active{
+  color:#58a6ff;
+  
+}
+
+img{
+  width:480px;
+  height:400px;
+  margin-left:900px;
+  border-radius:15px;
+}
+
+.home{
+ display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:100vh;
+  padding:0 50px;
+}
+
+.social-icons{
+  display:inline-block
+    font-size:15px;
+}
+
+.social-icons a:hover{
+  color:#1f6feb;
+  
+}
+
+.home-content p{
+  font-size:15px;
+  margin-bottom:20px;
+  color:white
+}
+.home-content h3{
+  font-size:15px;
+  
+  color:white
+}
+.btn:hover{
+  display:inline-block;
+  border-radius:30px;
+  padding:10px 25px 0 100p0x;
+  font-weight:300px;
+  text-decoration:none;
+}
+
+
+
+
+<!doctype html>
+
+  <html lang="en">
+    <head>
+      <title>
+      </title>
+    </head>
+    <body>
+      <header>
+        <nav class="navbar">
+          <div class="logo">Natasha vuleria</div>
+          <ul class="nav-link">
+            <li> <a href="#home" class="active" > home</a></li>
+            <li> <a href="#" > about</a></li>
+            <li> <a href="#"> skills</a></li>
+            <li> <a href="#" >  portfolio </a></li>
+            <li> <a href="#" > contact</a></li>
+            <li> <a href="#"  >  service</a></li>
+         
+    
+          </ul>
+        </nav>
+      </header>
+      
+      <section
+        id="home" class="home">
+        <div class="home-content">
+          <h3>Hello, its me</h3>
+          <h2>Natasha vuleeria</h2>
+          <p>  I am an Avenger ,cool,bold, a fashion stylist.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fabfa-linkedin"></i></a>
+            <a href="#"><i class="fabfa-github"></i></a>
+            <a href="#"><i class="fabfa-twitter"></i></a>
+        </div>
+        </div>
+        <div>
+          <img src="https://cdn.pixabay.com/photo/2022/04/06/11/30/girl-7115394_1280.jpg">   </div>
+        <a href="#" class="btn" >Hire me</a>     </section>
+      
+    </body>
+  </html>
+    
